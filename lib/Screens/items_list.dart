@@ -47,7 +47,7 @@ class _ItemsListScreenState extends State<ItemsListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Integrate Networking & API Calls',
+          'Local Storage with SharedPreferences',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
         actions: [
@@ -58,7 +58,8 @@ class _ItemsListScreenState extends State<ItemsListScreen> {
                     context: context,
                     builder: (BuildContext context) {
                       return AlertDialog(
-                        title: const Text('Integrate Networking and API Calls'),
+                        title:
+                            const Text('Local Storage with SharedPreferences'),
                         content: const Text.rich(TextSpan(
                             text:
                                 '\nTap a tile to see details on new page.\nLong press a tile to see details in Popup View.',
